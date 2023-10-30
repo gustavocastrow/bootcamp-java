@@ -6,16 +6,18 @@ import com.devsuperior.dscatalog.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.GetMapping;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service //Registrar a classe CategoryService como um componente que vai participar do sistema
 //de injeção de dependencia do spring
 public class CategoryService {
     @Autowired
-    private CategoryRepository repository;
+    private CategoryRepository repository; //responsável por acessar o banco de dados
     @Transactional(readOnly = true)
     public List<CategoryDTO> findAll() {
         List<Category> list = repository.findAll();
@@ -28,6 +30,13 @@ public class CategoryService {
         //categoryDTO recebendo X
     }
 
+    @Transactional(readOnly = true)
+    public CategoryDTO findById(Long id){
+        Optional<Category> obj = repository.findById(id);
+        Category entity = obj.get(); //obtendo o objeto que esta dentro do Optional
+
+        return new CategoryDTO(entity);
+    }
 }
 
 
