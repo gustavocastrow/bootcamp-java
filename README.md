@@ -1,10 +1,6 @@
 # Java Spring Expert
 
-O **Java Spring Expert** é um treinamento que corresponde à etapa 2 da jornada Ultimate de formação Java Spring da Devsuperior. O treinamento aborda tópicos de nível básico, intermediário e avançado, com foco em tópicos de nível intermediário.
-
-O que faz o **Java Spring Expert** ser um passo adiante do **Java Spring Essential** é principalmente seu foco em testes de software e práticas relacionadas para elevar em muito a qualidade e finalização dos projetos de back end com API Rest.
-
-Neste treinamento, vamos trabalhar muito com testes automatizados, desde os fundamentos até testes de unidade, de integração, de API, caixa branca/preta, TDD, cobertura de testes, e muito mais, além de vários novos desafios onde você consolidará seu aprendizado. Vamos focar em ferramentas tais como JUnit, Mockito, MockMvc, Jacoco e RestAssured. Importante ressaltar que aqui você vai ter desafios com TDD, ou seja, você vai receber um projeto onde os testes já estão escritos previamente, e sua tarefa será implementar as funcionalidades para fazer os testes passarem. Essa prática é muito importante e muito usada em processos seletivos de empresas.
+Neste repositório vamos trabalhar muito com testes automatizados, desde os fundamentos até testes de unidade, de integração, de API, caixa branca/preta, TDD, cobertura de testes, e muito mais, além de vários novos desafios onde você consolidará seu aprendizado. Vamos focar em ferramentas tais como JUnit, Mockito, MockMvc, Jacoco e RestAssured. Importante ressaltar que aqui você vai ter desafios com TDD, ou seja, você vai receber um projeto onde os testes já estão escritos previamente, e sua tarefa será implementar as funcionalidades para fazer os testes passarem. Essa prática é muito importante e muito usada em processos seletivos de empresas.
 
 ## Conteúdo Programático
 
